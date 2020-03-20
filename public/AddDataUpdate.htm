@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <title>Update App</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="alert alert-success alert-dismissible d-none" id="mes">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <strong>Success!</strong> Add App successfully.
+  </div>
+  <div class="alert alert-danger alert-dismissible d-none" id="dMes">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Success!</strong> App already exist
+</div>
+    <h3 align="center" class="mt-3">Add Data</h3>
+    <div class="container">
+      <div class="row mb-5">
+
+        <div class="col-sm-6"><a href="./account.htm" class="btn btn-warning btn-lg" id="home">Account</a></div>
+        
+        <div class="col-sm-6" align="right"><a href="./index.html" class="btn btn-warning btn-lg" id="home">Home</a></div>
+      </div>
+    </div>
+    <div>
+      <form method="post">
+        <div class="form-group row">
+          <label for="App name" class="col-sm-2 col-form-label">App Name :</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="appName">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="App name" class="col-sm-2 col-form-label">Package Name :</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="packageName">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="App Url" class="col-sm-2 col-form-label">App Url :</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="appUrl">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="App link" class="col-sm-2 col-form-label">status :</label>
+          <div class="col-sm-10">
+
+            <select id="status" class="form-control">
+              <option value="false">De Activate</option>
+              <option value="true">Activate</option>
+            </select>
+          </div>
+        </div>
+
+       <!-- Autometic feel -->
+       <div class="form-group row">
+        <label for="Account Name" class="col-sm-2 col-form-label">Account Name :</label>
+        <div class="col-sm-10">
+          <select id="accountName" class="form-control">
+            <option value="none">-- Select Account Name --</option>
+            <!-- <option value="activate">Artoholic</option>
+            <option value="deActivate">kmr</option> -->
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label for="Account Link" class="col-sm-2 col-form-label">Account Link :</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="AccountLink">
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label for="Privacy Link" class="col-sm-2 col-form-label">Privacy Link :</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="PrivacyLink">
+        </div>
+      </div>
+       <!-- end automic feel-->
+
+        <div class="form-group row">
+          <label for="App name" class="col-sm-2 col-form-label">titlle :</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="title">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Social context :</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="socialContext">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="App name" class="col-sm-2 col-form-label">Body :</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="body">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Call To action :</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="callToAction">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <div class="col-sm-10 text-center">
+            <button class="btn btn-success" id="updateApp" type="button">Update App</button>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script src="./javascripts/updateIt.js"></script>
+</body>
+
+</html>

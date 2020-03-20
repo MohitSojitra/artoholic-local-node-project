@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Add Account</title>
+    <style>
+        input[type=text] {
+            background-color: rgba(90, 42, 197, 1) !important;
+            color: rgb(246, 246, 246) !important;
+            margin-bottom: 50px;
+        }
+
+        ::placeholder {
+            color: rgba(246, 246, 246, 0.7) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="alert alert-success alert-dismissible d-none" id="mes">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Success!</strong> Add Account successfully.
+    </div>
+    <h1 style="background-color: rgb(90,42,197); color: rgb(246,246,246); border-radius: 5px;" class="m-1"
+        align="center">Add Account </h1>
+        <div class="container mt-1">
+            <div class="row mb-5">
+    
+                <div class="col-sm-6"><a href="./account.htm" class="btn btn-warning btn-lg" id="home">Account</a></div>
+    
+                <div class="col-sm-6" align="right"><a href="./index.html" class="btn btn-warning btn-lg" id="home">Home</a>
+                </div>
+            </div>
+        </div>
+        
+    <div class="container mt-5">
+        <form method="post">
+            <div class="form-group row">
+                <label for="Account Name" class="col-sm-2 col-form-label">Account Name :</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="AccountName" placeholder="enter account name.....">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="Account Link" class="col-sm-2 col-form-label">Account Link :</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="AccountLink" placeholder="enter Account Link.....">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="Privacy Link" class="col-sm-2 col-form-label">Privacy Link :</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="PrivacyLink" placeholder="enter Privacy Link.....">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-10 text-center">
+                    <button class="btn btn-lg" id="submit" type="button"
+                        style="background-color: rgb(90,42,197); color: rgb(246,246,246);">Add Data</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="./javascripts/addAccount.js"></script>
+
+</html>

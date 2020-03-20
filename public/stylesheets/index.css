@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navh {
+    background-color: rgba(246, 246, 246);
+    width: 100%;
+    /* height: 100vh; */
+
+}
+
+.contNav {
+    /* position: fixed; */
+    border: 1px solid;
+}
+
+.ham {
+    background-color: rgba(90, 42, 197);
+}
+
+.na {
+    position: fixed;
+}
+
+.a {
+    color: black;
+    font-weight: bolder;
+}
+
+.a:hover {
+    color: rgba(90, 42, 197);
+    text-decoration: none;
+}
+
+.m {
+    /* border: 1px solid; */
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.fimg{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+@media only screen and (min-width: 990px) {
+    .lbox {
+        margin-top: 50%;
+
+        /* border: 1px solid red; */
+
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .lbox {
+        margin-top: 8em;
+
+        /* border: 1px solid red; */
+
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .rbox {
+        margin-top: 8em;
+
+        /* border: 1px solid red; */
+
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .rbox {
+        margin-top: 4em;
+
+        /* border: 1px solid red; */
+
+    }
+}
+
+
+h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+}
+
+
+
+
+@media only screen and (max-width: 990px) {
+
+    .secondPage {
+        margin-top: 250px;
+    }
+
+    .card {
+        width: 400px;
+    }
+}
+
+.imgC {
+    width: 250px;
+    height: 250px;
+}
+
+
+.card {
+    background-color: #fff;
+    /* margin: 0px; */
+    /* border: 1px solid; */
+    margin-top: 40px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    transition: 0.6s ease;
+}
+
+/* .card:hover {
+    box-shadow: 8px 8px 8px 0px rgba(0, 0, 0, 0.6);
+    transform: translateY(-25px);
+} */
+
+.mRow {
+    margin-top: 40px;
+}
+
+
+
+/* ******************************     Third page     ******************** */
+
+.third {
+    margin-top: 0px;
+    
+}
+
+.thirdDiv {
+    height: auto;
+    margin-top: 40px !important;
+
+
+}
+
+.indiv {
+    margin-top: 100px;
+}
+
+.Bdiv {
+    margin-top: 40px;
+
+}
+
+.aButton {
+    margin-top: 20px !important;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: rgb(90, 42, 197) !important;
+    color: #fff;
+    font-weight: bolder !important;
+    transition: 0.5s ease;
+    width: 80px !important;
+}
+
+.aButton:hover {
+    color: #fff !important;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+
+
+
+/* *************************************Fourt row ************************** */
+.forth {
+    margin-top: 50px !important;
+    background-color: rgb(90, 42, 197);
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.ico {
+    margin-top: 5px;
+}
+
+.lDiv{
+    border : 1px solid white;
+    border-radius: 6px;
+    padding: 10px;
+    width: 300px;
+}
+.lFooter{
+    /* border: 1px solid; */
+    width: 450px;
+}
+
+
+@media only screen and (max-width: 990px) {
+
+    .mDiv{
+        width: 100%;
+        border-radius: 6px;
+    padding: 10px;
+        text-align: center;
+    }
+    .lDiv{
+        border : 1px solid white;
+        width: 300px;
+        display: inline-block; 
+    margin: 0 auto;
+    }
+    .lFooter{
+        /* border: 1px solid; */
+        width: 450px;
+        display: inline-block; 
+    margin: 0 auto;
+    }
+    
+}
